@@ -1,0 +1,6 @@
+require("remo.core")
+require("remo.lazy")
+require("remo.terminalpop")
+require("asciidoc-preview")
+require("moonfly")
+require("current-theme")
