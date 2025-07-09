@@ -116,8 +116,13 @@ return {
                         PmenuSel = { fg = "NONE", bg = theme.ui.bg_p2 },
                         PmenuSbar = { bg = theme.ui.bg_m1 },
                         PmenuThumb = { bg = theme.ui.bg_p2 },
+                        -- Cursor line number
+                        CursorLineNr = { fg = "#d19a66", bold = true },
+                        LineNrAbove = { fg = "#fdd835" },
+                        LineNrBelow = { fg = "#5d6d7e" },
+                        LineNr = { fg = "#FFA500"},
 
-                        -- Save an hlgroup with dark background and dimmed foreground
+-- Save an hlgroup with dark background and dimmed foreground
                         -- so that you can use it where your still want darker windows.
                         -- E.g.: autocmd TermOpen * setlocal winhighlight=Normal:NormalDark
                         NormalDark = { fg = theme.ui.fg_dim, bg = theme.ui.bg_m3 },
